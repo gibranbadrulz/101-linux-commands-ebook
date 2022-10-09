@@ -118,7 +118,7 @@ From step above, now we have a `300K` file and would like to shrink it to `250K`
 [user@home ~]$ truncate -s -50K file.txt
 
 [user@home ~]$ ls -lh file.txt 
--rw-r--r-- 1 jmutai wheel 250K Oct 10 13:15 file.txt
+-rw-r--r-- 1 user user 250K Oct 10 13:15 file.txt
 ```
 
 You can see the current size changed to `250K`.
